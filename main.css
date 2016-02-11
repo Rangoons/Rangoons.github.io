@@ -226,9 +226,9 @@ font-size: 18px;
 }
 block a,
 .project-block a {
-color: #001f3f;
+color: white;
 font-weight: 700;
-border-bottom: 1px solid rgba(0, 31, 63, 0.4);
+/*border-bottom: 1px solid rgba(0, 31, 63, 0.4);*/
 -webkit-transition: border-color 0.15s;
 -moz-transition: border-color 0.15s;
 -o-transition: border-color 0.15s;
@@ -236,9 +236,8 @@ transition: border-color 0.15s;
 }
 block a:hover,
 .project-block a:hover {
-color: #001f3f;
-text-decoration: none;
-border-bottom: 1px solid #001f3f;
+color: #CCC28F;
+/*border-bottom: 1px solid #001f3f; */
 }
 block:focus,
 .project-block:focus {
