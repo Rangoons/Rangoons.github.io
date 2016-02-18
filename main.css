@@ -239,7 +239,10 @@ transition: border-color 0.15s;
 }
 block a:hover,
 .project-block a:hover {
-color: #CCC28F;
+color: #467467;
+/*547c6e
+CCC28F
+*/
 /*border-bottom: 1px solid #001f3f; */
 }
 block:focus,
