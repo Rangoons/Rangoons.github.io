@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova", sans-serif;
+}
+#welcome{
+  background-image: url(https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?ixlib=rb-0.3.5&q=80&fm=jpg&s=f156e59b0cb6658af8c8e0a46d92a223);
+}
+#about{
+  background-color: gray;
+  /*background-image: url(https://massdrop-s3.imgix.net/product-images/granite-keycap-set/MD-15020_20160111165033_bad90c008bb2b7dc.jpg?auto=format&fm=jpg&fit=crop&w=1023&dpr=1);*/
+}
+#experience{
+  background-image: url(https://images.unsplash.com/photo-1441120526655-678eca71862a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a944728cca4382cc889c8d4e0922322c);
+}
+#skills{
+  background-image: url(https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c7ff0f302e75afc265cf22e4ff7902bb);
+}
+#contact{
+  background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&s=61f10e9ca87db4ebbb89ee7354153e02);
+}
+div > div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-center{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 3;
+  color: white;
+}
+.tint{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: 2;
+    background-color: #111;
+}
+.tint-strong{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 2;
+    background-color: #111;
+}
+.hi{
+  color:#4B9DC6;
+  /*-webkit-text-stroke: 1.5px #0074AC;*/
+  /*text-shadow: 2px 2px 2px #0074AC;*/
+}
+.subtitle{
+  font-size: 36px;
+  width: 60%;
+}
+#welcome .subtitle{
+  color: #AFA884;
+}
+.job{
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+div.job > h3{
+  padding-top: 10px;
+}
+div.job > p{
+  font-size: 20px;
+  padding-top: 7px;
+}
+#experience h1 {
+  color: #FFBE50;
+}
+#experience h3{
+  color: #61B088;
+}
+#contact h1{
+  color: #FFBE50;
+}
+.skillsWrapper{
+  width: 25%;
+  margin: 0 auto;
+}
+.skillsWrapper h2{
+  margin: 30px auto 15px auto;
+}
+/*.skillsTitle{
+  color: #FF4C4A;
+}*/
+h1{
+  font-size: 72px;
+}
+h2{
+  font-size: 36px;
+}
+
+p{
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color: #61B088;
+}
+a:hover{
+/*text-shadow: 1px 1px 1px #457D61;*/
+color: #539674;
+}
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor; }
