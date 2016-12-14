@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'Montserrat-light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Montserrat-Light.otf');
+}
 body{
   margin: 0;
   padding: 0;
-  font-family: "proxima-nova", sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
+  /*font-family: "proxima-nova", sans-serif;*/
 }
 #welcome{
   background-image: url(https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?ixlib=rb-0.3.5&q=80&fm=jpg&s=f156e59b0cb6658af8c8e0a46d92a223);
@@ -80,7 +87,7 @@ div.job > p{
   color: #FFBE50;
 }
 #experience h3{
-  color: #61B088;
+  color: #8DFFC5;
 }
 #contact h1{
   color: #FFBE50;
@@ -116,4 +123,5 @@ color: #539674;
 .octicon {
   display: inline-block;
   vertical-align: text-top;
-  fill: currentColor; }
+  fill: currentColor;
+}
